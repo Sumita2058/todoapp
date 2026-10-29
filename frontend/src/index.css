@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+input{
+    border: 1px solid gray;
+    padding: 4px;    
+}
+button{
+    background-color: green;
+    padding: 4px;
+    color: white;
+    font-weight: 500;
+}
+form{
+    border: 1px solid rgb(224, 220, 220);
+    padding: 50px;
+}
