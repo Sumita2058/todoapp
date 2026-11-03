@@ -9,10 +9,15 @@ connectDB()
 app.use(cors({
     origin:"http://localhost:5173"
 }))
-app.use(express.json())
+app.use(express.json());
+
+ app.get("/", (req, res) => {
+    console.log("hello from server");
+res.send("hello from server");
+ })
  app.use("/auth", userRoutes);
  app.use("/todos", todomodel)
- 
+
 app.listen(5000, ()=>{
     console.log("server is running in port 5000")
 })
