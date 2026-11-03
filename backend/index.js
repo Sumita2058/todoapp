@@ -7,7 +7,7 @@ const cors = require("cors")
 const app = express()
 connectDB()
 app.use(cors({
-    origin:"https://todo-web-black-xi.vercel.app"
+    origin:"https://todoapp-frontend-three-bay.vercel.app"
 }))
 app.use(express.json());
 

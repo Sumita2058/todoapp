@@ -1,6 +1,6 @@
 import axios from "axios"
 const API = axios.create({
-    baseURL: "https://todoapp-backends-u6pf83ts2-coding23.vercel.app/"
+    baseURL: "https://todoapp-backend-kohl.vercel.app"
 })
 
 API.interceptors.request.use(config => {
