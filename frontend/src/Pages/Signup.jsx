@@ -23,7 +23,7 @@ function Signup() {
     }
     return (
         <div className='flex min-h-screen justify-center items-center'>
-            <form className='flex flex-col gap-6 text-center' >
+            <form onSubmit={submit} className='flex flex-col gap-6 text-center' >
                 <h1>Signup</h1>
                 <input type="text" placeholder='Enter your Full Name'
                     onChange={e => setForm({
